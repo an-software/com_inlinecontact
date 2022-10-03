@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+	<name>COM_INLINECONTACT</name>
+	<author>Alexander Niklaus</author>
+	<authorEmail>support@an-software.net</authorEmail>
+	<authorUrl>https://an-software.net</authorUrl>
+	<copyright>Copyright (C) Alexander Niklaus. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<creationDate>October 2022</creationDate>
+	<version>1.0.3</version>
+	<description>COM_INLINECONTACT_DESCRIPTION</description>
+	<namespace path="src">ANSoftware\Component\Inlinecontact</namespace>
+	<files folder="site">
+		<folder>forms</folder>
+		<folder>src</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.com_inlinecontact.ini</language>
+		<language tag="de-DE">de-DE/de-DE.com_inlinecontact.ini</language>
+	</languages>
+	<media destination="com_inlinecontact" folder="media">
+		<folder>js</folder>
+		<file>joomla.asset.json</file>
+	</media>
+	<administration>
+		<files folder="admin">
+			<folder>forms</folder>
+			<folder>services</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.com_inlinecontact.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_inlinecontact.sys.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_inlinecontact.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_inlinecontact.sys.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="2" name="InlineContact">https://an-software.net/software/inlinecontact/component.xml</server>
+	</updateservers>
+</extension>

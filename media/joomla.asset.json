@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_inlinecontact",
+  "version": "1.0.0",
+  "description": "InlineContact Scripts",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_inlinecontact.inlinecontact-modal",
+      "type": "script",
+      "uri": "com_inlinecontact/inlinecontact-modal.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "type": "module"
+      }
+    }
+  ]
+}
