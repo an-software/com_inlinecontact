@@ -6,8 +6,8 @@
 	<authorUrl>https://an-software.net</authorUrl>
 	<copyright>Copyright (C) Alexander Niklaus. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
-	<creationDate>October 2022</creationDate>
-	<version>1.0.3</version>
+	<creationDate>December 2023</creationDate>
+	<version>1.1.0</version>
 	<description>COM_INLINECONTACT_DESCRIPTION</description>
 	<namespace path="src">ANSoftware\Component\Inlinecontact</namespace>
 	<files folder="site">

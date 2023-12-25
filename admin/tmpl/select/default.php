@@ -12,6 +12,7 @@
 use Joomla\CMS\Factory;
 use Joomla\CMS\Session\Session;
 use Joomla\CMS\Language\Text;
+use \Joomla\CMS\Router\Route;
 
 defined('_JEXEC') or die;
 
@@ -22,5 +23,5 @@ if ($app->isClient('site'))
 	Session::checkToken('get') or die(Text::_('JINVALID_TOKEN'));
 }
 
-$url = JRoute::_('index.php?option=com_contact');
+$url = Route::_('index.php?option=com_contact');
 $app->redirect($url);
